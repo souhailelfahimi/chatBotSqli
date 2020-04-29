@@ -1,0 +1,1542 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "What's the weather in Berlin at the moment?",
+        "intent": "get_weater",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Berlin",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "heya",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see ya",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see you later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "What's the weather today?",
+        "intent": "get_weater",
+        "entities": []
+      },
+      {
+        "text": "What's the weather in London today?",
+        "intent": "get_weater",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "London",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "Show me what's the weather in Paris",
+        "intent": "get_weater",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "Paris",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "I wonder what is the weather in Vilnius right now?",
+        "intent": "get_weater",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "Vilnius",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "what is the weather?",
+        "intent": "get_weater",
+        "entities": []
+      },
+      {
+        "text": "Tell me the weather",
+        "intent": "get_weater",
+        "entities": []
+      },
+      {
+        "text": "Is the weather nice in Barcelona today?",
+        "intent": "get_weater",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Barcelona",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "I am going to London today and I wonder what is the weather out there?",
+        "intent": "get_weater",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "London",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "I am planning my trip to Amsterdam. What is the weather out there?",
+        "intent": "get_weater",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Amsterdam",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "Show me the weather in Dublin, please",
+        "intent": "get_weater",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Dublin",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "in London",
+        "intent": "inform_GPE",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "London",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "Lithuania",
+        "intent": "inform_GPE",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Lithuania",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "Oh, sorry, in Italy",
+        "intent": "inform_GPE",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Italy",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the weather in Vilnius",
+        "intent": "get_weater",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Vilnius",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "The weather condition in Italy",
+        "intent": "get_weater",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Italy",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "how are you",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Is anyone there?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "whats up",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "mo",
+        "intent": "getCard",
+        "entities": [
+          {
+            "start": 37,
+            "end": 44,
+            "value": "France",
+            "entity": "GPE"
+          },
+          {
+            "start": 29,
+            "end": 33,
+            "value": "visa",
+            "entity": "type_card"
+          }
+        ]
+      },
+      {
+        "text": "test cc for visa France ?",
+        "intent": "getCard",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "visa",
+            "entity": "type_card"
+          },
+          {
+            "start": 17,
+            "end": 23,
+            "value": "France",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "in Rabat",
+        "intent": "inform_GPE",
+        "entities": [
+          {
+            "start": 2,
+            "end": 8,
+            "value": "Rabat",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "I want to test payment",
+        "intent": "getCard",
+        "entities": []
+      },
+      {
+        "text": "I want to test payment using visa ",
+        "intent": "getCard",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "visa ",
+            "entity": "type_card"
+          }
+        ]
+      },
+      {
+        "text": "test cc ",
+        "intent": "getCard",
+        "entities": []
+      },
+      {
+        "text": "mastercard payement  to use in international",
+        "intent": "getCard",
+        "entities": [
+          {
+            "start": 31,
+            "end": 44,
+            "value": "international",
+            "entity": "GPE"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "mastercard",
+            "entity": "type_card"
+          }
+        ]
+      },
+      {
+        "text": "give me international visa card for test",
+        "intent": "getCard",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "visa",
+            "entity": "type_card"
+          },
+          {
+            "start": 8,
+            "end": 21,
+            "value": "international",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "Visa credit card",
+        "intent": "getCard",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Visa",
+            "entity": "type_card"
+          }
+        ]
+      },
+      {
+        "text": "need payment method of type mastercard for United states market",
+        "intent": "getCard",
+        "entities": [
+          {
+            "start": 28,
+            "end": 38,
+            "value": "mastercard",
+            "entity": "type_card"
+          },
+          {
+            "start": 43,
+            "end": 56,
+            "value": "United states",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "credit card",
+        "intent": "getCard",
+        "entities": []
+      },
+      {
+        "text": "France",
+        "intent": "inform_GPE",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "France",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "visa",
+        "intent": "inform_type_card",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "visa",
+            "entity": "type_card"
+          }
+        ]
+      },
+      {
+        "text": "giv me a card",
+        "intent": "getCard",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "card",
+            "entity": "type_card"
+          }
+        ]
+      },
+      {
+        "text": "payement card to use in United states",
+        "intent": "getCard",
+        "entities": [
+          {
+            "start": 24,
+            "end": 37,
+            "value": "United states",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "mastercard payement card to use in United states",
+        "intent": "getCard",
+        "entities": [
+          {
+            "start": 35,
+            "end": 48,
+            "value": "united states",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "It is sunny today",
+        "intent": "get_weater",
+        "entities": []
+      },
+      {
+        "text": "It will be cloudy tomorrow in london",
+        "intent": "get_weater",
+        "entities": [
+          {
+            "start": 30,
+            "end": 36,
+            "value": "london",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "What's it like out(side)?",
+        "intent": "get_weater",
+        "entities": []
+      },
+      {
+        "text": "It's pretty hot. What's the temperature?",
+        "intent": "get_weater",
+        "entities": []
+      },
+      {
+        "text": "What's the forecast for tomorrow in rabat",
+        "intent": "get_weater",
+        "entities": [
+          {
+            "start": 36,
+            "end": 41,
+            "value": "rabat",
+            "entity": "GPE"
+          }
+        ]
+      },
+      {
+        "text": "Is it raining outside?",
+        "intent": "get_weater",
+        "entities": []
+      },
+      {
+        "text": "What's the weather like?",
+        "intent": "get_weater",
+        "entities": []
+      },
+      {
+        "text": "NCS-PAY",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "NCS-PAY",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "ncs-admin",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "ncs-admin",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "NC2",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "NC2",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "hqchvstbapi1",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "hqchvstbapi1",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "bapi",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "bapi",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "bapi-auth",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "bapi-auth",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "bapi register",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "bapi register",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "bapi web service",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "bapi web service",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "bapi-register",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "bapi-register",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "bapi-web-service",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "bapi-web-service",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "bapi1",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "bapi1",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "cam",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "cam",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "emt4",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "emt4",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "INT",
+        "intent": "inform_environment_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "DEV1",
+        "intent": "inform_environment_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "DEV1",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "DEV2",
+        "intent": "inform_environment_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "DEV2",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "DEV3",
+        "intent": "inform_environment_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "DEV3",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "vst",
+        "intent": "inform_environment_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "vst",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "whats is the status of server bapi1 INT?",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "bapi1",
+            "entity": "service_name"
+          },
+          {
+            "start": 36,
+            "end": 39,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "whats is the status of bapi1 INT?",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "bapi1",
+            "entity": "service_name"
+          },
+          {
+            "start": 29,
+            "end": 32,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "whats is the state of bapi1 INT?",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "bapi1",
+            "entity": "service_name"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "whats is the status of bapi1 INT",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "bapi1",
+            "entity": "service_name"
+          },
+          {
+            "start": 29,
+            "end": 32,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "whats is the state of bapi1 INT",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "bapi1",
+            "entity": "service_name"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "is bapi INT up?",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "bapi",
+            "entity": "service_name"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "healt check bapi INT",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "bapi",
+            "entity": "service_name"
+          },
+          {
+            "start": 17,
+            "end": 20,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "get status of bapi INT",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "bapi",
+            "entity": "service_name"
+          },
+          {
+            "start": 19,
+            "end": 22,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "status of bapi INT",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "bapi",
+            "entity": "service_name"
+          },
+          {
+            "start": 15,
+            "end": 18,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "give me state of bapi INT",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "bapi",
+            "entity": "service_name"
+          },
+          {
+            "start": 22,
+            "end": 25,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "is server bapi INT on?",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "bapi",
+            "entity": "service_name"
+          },
+          {
+            "start": 15,
+            "end": 18,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "i wanna know if server bapi INT is running?",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "bapi",
+            "entity": "service_name"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "is bapi INT running",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "bapi",
+            "entity": "service_name"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "NCS-PAY",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "NCS-PAY",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "ncs-admin",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "ncs-admin",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "NC2",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "NC2",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "hqchvstbapi1",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "hqchvstbapi1",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "bapi",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "bapi",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "bapi-auth",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "bapi-auth",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "bapi register",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "bapi register",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "bapi web service",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "bapi web service",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "bapi-register",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "bapi-register",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "bapi-web-service",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "bapi-web-service",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "bapi1",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "bapi1",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "cam",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "cam",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "emt4",
+        "intent": "inform_app_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "emt4",
+            "entity": "service_name"
+          }
+        ]
+      },
+      {
+        "text": "INT",
+        "intent": "inform_environment_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "DEV1",
+        "intent": "inform_environment_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "DEV1",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "DEV2",
+        "intent": "inform_environment_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "DEV2",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "DEV3",
+        "intent": "inform_environment_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "DEV3",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "vst",
+        "intent": "inform_environment_detection",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "vst",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "whats is the status of server bapi1 INT?",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "bapi1",
+            "entity": "service_name"
+          },
+          {
+            "start": 36,
+            "end": 39,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "whats is the status of bapi1 INT?",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "bapi1",
+            "entity": "service_name"
+          },
+          {
+            "start": 29,
+            "end": 32,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "whats is the state of bapi1 INT?",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "bapi1",
+            "entity": "service_name"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "whats is the status of bapi1 INT",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "bapi1",
+            "entity": "service_name"
+          },
+          {
+            "start": 29,
+            "end": 32,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "whats is the state of bapi1 INT",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "bapi1",
+            "entity": "service_name"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "is bapi INT up?",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "bapi",
+            "entity": "service_name"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "healt check bapi INT",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "bapi",
+            "entity": "service_name"
+          },
+          {
+            "start": 17,
+            "end": 20,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "get status of bapi INT",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "bapi",
+            "entity": "service_name"
+          },
+          {
+            "start": 19,
+            "end": 22,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "status of bapi INT",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "bapi",
+            "entity": "service_name"
+          },
+          {
+            "start": 15,
+            "end": 18,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "give me state of bapi INT",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "bapi",
+            "entity": "service_name"
+          },
+          {
+            "start": 22,
+            "end": 25,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "is server bapi INT on?",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "bapi",
+            "entity": "service_name"
+          },
+          {
+            "start": 15,
+            "end": 18,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "i wanna know if server bapi INT is running?",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "bapi",
+            "entity": "service_name"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "is bapi INT running",
+        "intent": "healt_check",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "bapi",
+            "entity": "service_name"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "INT",
+            "entity": "env_name"
+          }
+        ]
+      },
+      {
+        "text": "stackoverflow",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "stack over",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "over flow",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "stack flow",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "stackover",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "sof",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "stack",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "stackof",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "search this info on stack over flow",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "find this info on stack over flow",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "get me this info on stack over flow",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "help stack over flow",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "search this info on stack",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "find this info on stack",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "get me this info on stack",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "help stack",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "search this info on sof",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "find this info on sof",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "get me this info on sof",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "help sof",
+        "intent": "stackoverflow",
+        "entities": []
+      },
+      {
+        "text": "It's icy. or It's an icy day",
+        "intent": "get_weater",
+        "entities": []
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "GPE",
+        "pattern": "[0-9]{5}"
+      },
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      }
+    ],
+    "lookup_tables": [
+      {
+        "name": "GPE",
+        "elements": "data/GPE.txt"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "United states",
+        "synonyms": [
+          "us"
+        ]
+      },
+      {
+        "value": "France",
+        "synonyms": [
+          "fr"
+        ]
+      }
+    ]
+  }
+}

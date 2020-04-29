@@ -1,0 +1,61 @@
+slots:
+  GPE:
+    type: text
+  type_card:
+    type: text
+  service_name:
+    type: text
+  env_name:
+    type: text
+
+
+
+intents:
+ - greet
+ - goodbye
+ - getCard
+ - inform_type_card
+ - get_weater
+ - inform_GPE
+ - inform_environment_detection
+ - inform_app_detection
+ - stackoverflow
+ - healt_check
+
+
+
+
+entities:
+ - GPE
+ - type_card
+
+templates:
+  utter_greet:
+    - text: 'Hello! How can I help?'
+  utter_goodbye:
+    - text: 'Talk to you later.'
+    - text: 'Bye bye :('
+  utter_ask_GPE:
+    - text: 'In what GPE?'
+  utter_ask_type:
+    - text: ''
+  utter_ask_for_service:
+    - text: "can you specify  the server name?"
+  utter_ask_for_env:
+    - text: "can you specify the environement name?"
+
+
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - action_ask_GPE
+ - action_weather
+ - action_ask_type
+ - action_card
+ - action_healt_check
+ - search_stackoverflow
+
+
+
+

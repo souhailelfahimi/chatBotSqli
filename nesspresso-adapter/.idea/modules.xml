@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dataProvider/dataProvider.iml" filepath="$PROJECT_DIR$/dataProvider/dataProvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nesspresso-adapter.iml" filepath="$PROJECT_DIR$/nesspresso-adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/startUp/startUp.iml" filepath="$PROJECT_DIR$/startUp/startUp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,29 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: "en_core_web_lg"
+pipeline:
+  - name: SpacyNLP
+  - name: "SpacyTokenizer"
+  - name: "SpacyFeaturizer"
+  - name: RegexFeaturizer
+  - name: "SpacyEntityExtractor"
+  - name: "CRFEntityExtractor"
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: "char_wb"
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier
+    epochs: 100
+  - name: EntitySynonymMapper
+
+
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: MemoizationPolicy
+    max_history: 3
+  - name: KerasPolicy
+  - name: MappingPolicy
